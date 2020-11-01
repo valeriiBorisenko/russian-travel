@@ -1,0 +1,9 @@
+.place__link {
+  grid-area: website;
+
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 22px;
+  text-decoration-line: underline;
+}

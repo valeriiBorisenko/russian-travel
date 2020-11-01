@@ -1,0 +1,21 @@
+.place {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "title website"
+    "image paragraph";
+
+  column-gap: 40px;
+  row-gap: 48px;
+}
+
+@media screen and (max-width: 500px) {
+  .place {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "title"
+      "image"
+      "paragraph";
+    row-gap: 32px;
+  }
+}

@@ -5,18 +5,20 @@
   max-width: 984px;
   max-height: 1005px;
 
-  margin: auto;
+  margin: 0 148px 0;
   align-items: center;
 }
 
 @media screen and (max-width: 1024px) {
   .lead {
     max-width: 928px;
+    margin: 0 48px 0;
   }
 }
 
 @media screen and (max-width: 768px) {
   .lead {
-    max-width: 928px;
+    max-width: 768px;
+    margin: 0;
   }
 }

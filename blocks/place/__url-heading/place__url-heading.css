@@ -1,0 +1,11 @@
+.place__url-heading {
+  grid-area: website;
+
+  margin-top: 0px;
+  margin-bottom: 12px;
+
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 12px;
+  letter-spacing: 0.2em;
+}
