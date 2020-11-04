@@ -2,7 +2,6 @@
   width: 176px;
   height: 52px;
   margin-top: 28px;
-  margin-right: 0px;
   margin-bottom: 56px;
   margin-left: 48px;
   background-image: url(../../../images/logo/logo.svg);
@@ -19,7 +18,7 @@
     margin-left: 24px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 760px) {
   .header__logo {
     width: 142px;
     height: 42px;

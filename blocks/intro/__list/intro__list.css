@@ -1,4 +1,8 @@
-.lead__list {
+.intro__list {
   padding: 0;
   margin: 0;
+
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
 }

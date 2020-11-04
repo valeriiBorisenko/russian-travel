@@ -8,7 +8,7 @@
 @media screen and (max-width: 1024px) {
   .places {
     max-width: 928px;
-    margin: 92px 48px
+    margin: 92px 48px;
   }
 }
 
@@ -20,8 +20,9 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 650px) {
   .places {
-      row-gap: 49px;
+    row-gap: 49px;
+    margin: 64px 0px 66px;
   }
 }
