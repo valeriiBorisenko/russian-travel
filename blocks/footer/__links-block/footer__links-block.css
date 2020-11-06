@@ -1,4 +1,4 @@
-.footer__links {
+.footer__links-block {
   display: flex;
   flex-direction: row;
   list-style: none;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 600px) {
-  .footer__links {
+  .footer__links-block {
     flex-direction: column;
   }
 }

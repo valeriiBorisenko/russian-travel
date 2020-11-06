@@ -2,11 +2,20 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 106%;
-  margin: 0;
+  color: #ffffff;
+
+  margin-top: auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0;
   padding-bottom: 32px;
+
+  max-width: 560px;
+
+  text-align: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .cover__title {
     padding-bottom: 16px;
 
