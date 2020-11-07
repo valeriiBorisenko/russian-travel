@@ -6,4 +6,5 @@
   font-weight: normal;
   line-height: 22px;
   text-decoration-line: underline;
+  align-self: flex-start;
 }

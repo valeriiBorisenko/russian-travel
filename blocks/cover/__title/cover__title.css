@@ -4,22 +4,20 @@
   line-height: 106%;
   color: #ffffff;
 
-  margin-top: auto;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 0;
+  margin: 0 auto;
   padding-bottom: 32px;
 
-  max-width: 560px;
+  width: 560px;
 
   text-align: center;
+  z-index: 1;
 }
 
 @media screen and (max-width: 700px) {
   .cover__title {
     padding-bottom: 16px;
 
-    max-width: 288px;
+    width: 288px;
     font-size: 32px;
     line-height: 109%;
   }

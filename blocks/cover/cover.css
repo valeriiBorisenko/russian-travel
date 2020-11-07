@@ -1,20 +1,7 @@
 .cover {
   margin: 0 48px;
   padding: 0;
-
-  background-image: url(../../images/cover/train_cover.jpg);
-  background-size: cover;
-  position: relative;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.cover::before {
-  content: "";
-  display: block;
-  padding-bottom: 62.5%;
+  max-width: 1184px;
 }
 
 @media screen and (max-width: 1024px) {
