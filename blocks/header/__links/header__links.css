@@ -1,7 +1,7 @@
 .header__links {
   display: flex;
   flex-direction: row;
-  max-height: 28px;
+  align-self: flex-start;
 
   list-style: none;
 
